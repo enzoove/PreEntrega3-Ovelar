@@ -1,0 +1,56 @@
+.home{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 80px 200px;
+        .posteBarbero{
+            background-image: url(../assets/img/poste.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 150px;
+            width: auto;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .eslogan{
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px goldenrod;
+            padding: 1px;
+            margin: 1px;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        form{
+            border: 2px goldenrod solid;
+            width: 90%;
+            margin: auto;
+            display: grid;
+            justify-content: center;
+            grid-column: 1/2;
+            grid-row: 3/4;
+            h2{
+                font-family: "Rubik", sans-serif;
+                margin-top: 15px;
+            }
+            input{
+                width: 90%;
+                margin-top: 15px;
+            }
+            select{
+                width: 90%;
+                margin-bottom: 15px;
+            }
+            button{
+                width: 90%;
+                text-transform: uppercase;
+                font-family: "Rubik", sans-serif;
+                font-weight: bold;
+                margin-bottom: 15px;
+                &:hover{
+                    background-color: goldenrod;
+
+                }
+            }
+        }
+    }
