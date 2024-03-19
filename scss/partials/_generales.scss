@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&display=swap');
+/* font-family: "Oswald", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* font-family: "Rubik", sans-serif; */
+@font-face {
+    font-family: thestudents;
+    src: url(../../assets/fonts/TheStudentsTeacher-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    
+}
+header{
+    width: 100%;
+    height: 88px;
+    position: absolute;
+    top: 0;
+    border: 1px goldenrod solid;
+
+    font-size: 25px;
+    .logo{
+        width: 300px;
+        height: auto;
+        margin: 0;
+    }
+}
+main{
+    width: 100%;
+    height: calc(1vh - 138px);
+    position: absolute;
+    top: 88px;
+}
+footer{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border: 1px goldenrod solid;
+    div{
+        color:white;
+        font-size: 20px;
+        width: 33%;
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: goldenrod;
+            }
+        }
+        
+    }
+    .ubicacion{
+        text-align: left;
+    }
+    .whatsapp{
+        text-align: center;
+    }
+    .instagram{
+        text-align: right;
+    }
+}
