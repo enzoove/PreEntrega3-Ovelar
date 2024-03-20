@@ -4,7 +4,7 @@
 /* font-family: "Rubik", sans-serif; */
 @font-face {
     font-family: thestudents;
-    src: url(../../assets/fonts/TheStudentsTeacher-Regular.ttf);
+    src: url(../assets/fonts/TheStudentsTeacher-Regular.ttf);
 }
 *{
     margin: 0;
@@ -14,6 +14,13 @@
     color: white;
     font-family: "Oswald", sans-serif;
     
+}
+h1{
+    font-size: 40px;
+        text-transform: capitalize;
+        text-align: center;
+        text-shadow: 1px 1px goldenrod;
+        margin: auto 0;
 }
 header{
     font-size: 25px;
