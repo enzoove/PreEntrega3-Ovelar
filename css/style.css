@@ -168,6 +168,22 @@ footer .instagram {
   width: 60%;
   margin: auto 20%;
 }
+.nuestrosCortes .galeriaCortes .item1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.nuestrosCortes .galeriaCortes .item2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.nuestrosCortes .galeriaCortes .item3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.nuestrosCortes .galeriaCortes .item4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
 .nuestrosCortes h2 {
   font-size: 30px;
   font-family: "Rubik", sans-serif;
@@ -199,6 +215,22 @@ footer .instagram {
   font-size: 40px;
   color: green;
   text-align: center;
+}
+.catalogo .producto1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.catalogo .producto2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.catalogo .producto3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.catalogo .producto4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 
 .ubicacion p {

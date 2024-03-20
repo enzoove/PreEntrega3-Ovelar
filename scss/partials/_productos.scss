@@ -23,5 +23,21 @@
             text-align: center;
         }
     }
+    .producto1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .producto2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .producto3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .producto4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
 
 }
