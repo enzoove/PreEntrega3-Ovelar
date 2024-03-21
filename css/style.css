@@ -147,7 +147,7 @@ footer .instagram {
   grid-row: 1/2;
 }
 .sobreNosotros .foto {
-  background-image: url(../assets/img/barberia.jpg);
+  background-image: url(../assets/img/barberia.webp);
   background-size: cover;
   width: 80%;
   height: 300px;
