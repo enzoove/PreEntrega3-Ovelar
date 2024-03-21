@@ -12,6 +12,9 @@
             height: 250px;
             width: 250px;
             margin: auto;
+            &:hover{
+                transform: skewX(15deg);
+            }
         }
         .nombreProducto{
             font-size: 30px;
@@ -19,8 +22,11 @@
         }
         .precio{
             font-size: 40px;
-            color: green;
+            color: #008000bd;
             text-align: center;
+            &:hover{
+                color: green;
+            }
         }
     }
     .producto1{

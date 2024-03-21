@@ -11,6 +11,9 @@
             width: auto;
             grid-column: 1/2;
             grid-row: 1/2;
+            animation-name: efecto_poste;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
         }
         .eslogan{
             padding: 1px;
@@ -50,8 +53,7 @@
                 font-weight: bold;
                 margin-bottom: 15px;
                 &:hover{
-                    background-color: goldenrod;
-
+                    background-image: radial-gradient(#444001, goldenrod);
                 }
             }
         }

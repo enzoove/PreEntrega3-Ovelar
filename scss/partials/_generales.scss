@@ -6,6 +6,11 @@
     font-family: thestudents;
     src: url(../assets/fonts/TheStudentsTeacher-Regular.ttf);
 }
+
+@keyframes efecto_poste{
+    50%{height: 102%;}
+}
+
 *{
     margin: 0;
     padding: 0;
