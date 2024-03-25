@@ -5,8 +5,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr 5fr;
     h1{
-        grid-column: 1/2;
-        grid-row: 1/2;
+        @include grid_position(1,2, 1,2);
     }
     .foto{
         background-image: url(../assets/img/barberia.webp);
@@ -14,15 +13,13 @@
         width: 80%;
         height: 300px;
         margin: 10px auto;
-        grid-column: 1/2;
-        grid-row: 2/3;
+        @include grid_position(1,2, 2,3);
     }
     p{
         font-size: 25px;
         text-align: justify;
         font-family: thestudents;
         padding: 15px;
-        grid-column: 1/2;
-        grid-row: 3/4;
+        @include grid_position(1,2, 3,4);
     }
 }

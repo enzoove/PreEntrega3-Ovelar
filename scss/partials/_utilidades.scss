@@ -1,0 +1,22 @@
+$colores:(
+    color-fondo: rgb(0, 0, 0),
+    color-texto: rgb(255, 255, 255),
+    color-secundario: rgb(218, 165, 32)
+);
+
+%flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin grid_position($inicioColumna, $finColumna, $inicioFila, $finFila){
+    grid-column-start: $inicioColumna;
+    grid-column-end: $finColumna;
+    grid-row-start: $inicioFila;
+    grid-row-end: $finFila;
+}
+
+@keyframes efecto_poste{
+    50%{height: 102%;}
+}

@@ -7,16 +7,12 @@
     src: url(../assets/fonts/TheStudentsTeacher-Regular.ttf);
 }
 
-@keyframes efecto_poste{
-    50%{height: 102%;}
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: map-get($colores , color-fondo );
+    color: map-get($colores, color-texto );
     font-family: "Oswald", sans-serif;
     
 }
@@ -24,7 +20,7 @@ h1{
     font-size: 40px;
         text-transform: capitalize;
         text-align: center;
-        text-shadow: 1px 1px goldenrod;
+        text-shadow: 1px 1px map-get($colores , color-secundario );
         margin: auto 0;
 }
 header{
@@ -42,20 +38,20 @@ main{
     min-height: 100vh;
 }
 footer{
-    display: flex;
+    @extend %flex_center;
     padding: 20px;
     width: 100%;
     div{
-        color:white;
+        color:map-get($colores, color-texto );
         flex-wrap: nowrap;
         font-size: 40px;
         width: 33%;
         a{
             text-decoration: none;
-            color: white;
+            color: map-get($colores , color-texto );
             i{
                 &:hover{
-                    color: goldenrod;
+                    color: map-get($colores, color-secundario);
                     transform: scale(1.4);
                     transition: all .2s;
                 }

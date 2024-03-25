@@ -12,6 +12,6 @@
     h2{
         font-size: 40px;
         text-align: center;
-        text-shadow: 1px 1px goldenrod;
+        text-shadow: 1px 1px map-get($colores , color-secundario );
     }
 }

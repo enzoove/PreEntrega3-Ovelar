@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 500px);
     .tarjetaProducto{
-        border: 1px solid goldenrod;
+        border: 1px solid map-get($colores , color-secundario );
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 250px 50px 50px;
@@ -30,20 +30,16 @@
         }
     }
     .producto1{
-        grid-column: 1/2;
-        grid-row: 1/2;
+        @include grid_position(1,2, 1,2);
     }
     .producto2{
-        grid-column: 1/2;
-        grid-row: 2/3;
+        @include grid_position(1,2, 2,3);
     }
     .producto3{
-        grid-column: 1/2;
-        grid-row: 3/4;
+        @include grid_position(1,2, 3,4);
     }
     .producto4{
-        grid-column: 1/2;
-        grid-row: 4/5;
+        @include grid_position(1,2, 4,5);
     }
 
 }
